@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torque and Adaptor Calculations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #000000;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .important {
+            font-weight: bold;
+            color: #d9534f;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Torque Calculation</h1>
+    <p>Assume, Weight = Force (Acceleration due to Gravity is neglected)</p>
+    <pre>FOS (Factor of Safety) = 1.5</pre>
+
+    <h2>Motor 1 and 2</h2>
+    <pre>
+        r = 49mm = 0.49cm
+        W = 1.0678488kg
+
+        T = F × r × FOS
+          = W × r × FOS
+
+        T = 1.0678488 × 0.49 × 1.5
+        T = 0.7848 kg-cm
+    </pre>
+    <p class="important">Therefore, the torque of the first and second motor individually is 0.7848 kg-cm, so we will need 2, 1000 RPM DC Motors.</p>
+
+    <h2>Motor 3</h2>
+    <pre>
+        r = 34mm = 3.4cm
+        W = 1.0678488kg
+
+        T = F × r × FOS
+          = W × r × FOS
+
+        T = 1.0678488 × 3.4 × 1.5
+        T = 5.4460 kg-cm
+    </pre>
+    <p class="important">Therefore, the torque of the third motor is 5.4460 kg-cm, so we will need 1, 30 RPM DC Motor.</p>
+
+    <h1>Adaptor Calculations</h1>
+    <pre>FOS (Factor of Safety) = 1.2</pre>
+
+    <table>
+        <tr>
+            <th>Component</th>
+            <th>Quantity</th>
+            <th>Voltage</th>
+            <th>Current</th>
+            <th>Total Current</th>
+        </tr>
+        <tr>
+            <td>Arduino Mega 2560</td>
+            <td>1</td>
+            <td>12V</td>
+            <td>320mA</td>
+            <td>320mA × 1 × 1.2 = 0.38A</td>
+        </tr>
+        <tr>
+            <td>30 RPM - DC Motor</td>
+            <td>1</td>
+            <td>12V</td>
+            <td>300mA</td>
+            <td>300mA × 1 × 1.2 = 0.36A</td>
+        </tr>
+        <tr>
+            <td>1000 RPM - DC Motor</td>
+            <td>2</td>
+            <td>12V</td>
+            <td>300mA</td>
+            <td>300mA × 2 × 1.2 = 0.72A</td>
+        </tr>
+        <tr>
+            <td>Push Switch</td>
+            <td>2</td>
+            <td>12V</td>
+            <td>14mA</td>
+            <td>14mA × 2 × 1.2 = 0.0336A</td>
+        </tr>
+    </table>
+
+    <pre>
+        Total current of all components = 0.38 + 0.36 + 0.72 + 0.03
+                                       = 1.49A
+
+        Power = V × I
+              = 12V × 1.49A
+              = 17.88W
+    </pre>
+    <p class="important">∴ We use a 12V, 2A Adaptor.</p>
+    <p><strong>Power = 17.88W</strong></p>
+
+</body>
+</html>
