@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Analysis and Concept Generation</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        h2, h3 {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>2.1 Establishing Functions</h2>
+    <h3>Table 1: List of All Identified Functions</h3>
+    <table>
+        <tr>
+            <th>Sl.no</th>
+            <th>Functions</th>
+        </tr>
+        <tr><td>1.</td><td>Display the target achieved</td></tr>
+        <tr><td>2.</td><td>Store the missile</td></tr>
+        <tr><td>3.</td><td>Release the missile</td></tr>
+        <tr><td>4.</td><td>Sense the target</td></tr>
+        <tr><td>5.</td><td>Move the missile sideways</td></tr>
+        <tr><td>6.</td><td>Indicate Machine ON/OFF</td></tr>
+    </table>
+
+    <h2>2.2 Function Tree</h2>
+    <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/145776618/99f3a9a2-439a-4e38-9945-24e190340970" alt="Function Graph Final">
+
+    <h2>2.3 Functional Clustering</h2>
+    <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/145776618/0501299a-e658-482e-bdc6-574b048c54bd" alt="Function Clustering Final">
+
+    <h2>2.4 Sub Systems Identified</h2>
+    <table>
+        <tr>
+            <th>Sl.no</th>
+            <th>Sub-Systems</th>
+        </tr>
+        <tr><td>1.</td><td>Target Unit</td></tr>
+        <tr><td>2.</td><td>Missile Handling Unit</td></tr>
+        <tr><td>3.</td><td>Indication Unit</td></tr>
+    </table>
+
+    <h2>2.5 Establishing Means – Morphological Chart</h2>
+    <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/146121637/0ed589b9-dd8d-4f6c-b7fe-3d2e60f48090" alt="Morphological Chart">
+
+    <h2>2.6 Concept Generation</h2>
+
+    <h3>2.6.1 Concept 1 (SELECTED)</h3>
+    <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/145776618/8db6b463-6f8f-45a8-99de-413ba9fdd4df" alt="Concept 1">
+
+    <h3>2.6.2 Concept 2</h3>
+    <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/145776618/125f6a22-febb-4b0e-88d6-82fbb598ca4f" alt="Concept 2">
+
+    <h3>2.6.3 Concept 3</h3>
+    <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/145776618/a2e6aa65-65fc-4fc7-b589-4dce8c2c3838" alt="Concept 3">
+
+    <h3>2.6.4 Concept 4</h3>
+    <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/145776618/c2b0a2d9-7c01-44ef-b648-66dc8a99cac7" alt="Concept 4">
+
+    <h2>2.7 PUGH Chart</h2>
+    <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/146908525/84af4d8c-cb85-4e20-a416-49d0e88f6a35" alt="PUGH Chart">
+
+</body>
+</html>
