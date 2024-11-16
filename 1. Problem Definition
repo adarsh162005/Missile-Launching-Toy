@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missile Launching Toy Design Document</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        h2, h3 {
+            color: #003366;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>1.1 Questions and Answer</h2>
+    <h3>Table 1: Questions and Answers</h3>
+    <table>
+        <tr>
+            <th>Sl.No</th>
+            <th>Question</th>
+            <th>Answer</th>
+            <th>Objective/Function/Constraint</th>
+        </tr>
+        <tr><td>01</td><td>Between what age group the toy should sale?</td><td>5-13 Years of age</td><td>Constraint</td></tr>
+        <tr><td>02</td><td>What materials to use for the toy?</td><td>Non-Toxic and Durable</td><td>Objective</td></tr>
+        <tr><td>03</td><td>Should the toy be Automatic or manual?</td><td>Semi Automatic</td><td>Objective</td></tr>
+        <tr><td>04</td><td>What is the budget of the toy?</td><td>Should not be more than Rs 3500/-</td><td>Constraint</td></tr>
+        <tr><td>05</td><td>What should be the size of the toy?</td><td>Dimensions should not be more than: 1.5ftX1.5ftX1.5ft</td><td>Constraint</td></tr>
+        <tr><td>06</td><td>Does the toy meet safety standards and regulations?</td><td>Yes</td><td>Objective</td></tr>
+        <tr><td>07</td><td>How many units should be produced?</td><td>1 unit</td><td>Constraint</td></tr>
+        <tr><td>08</td><td>What is the production timeline?</td><td>2-3 months</td><td>Constraint</td></tr>
+        <tr><td>09</td><td>Should the machine be portable?</td><td>Yes</td><td>Objective</td></tr>
+        <tr><td>10</td><td>What should be the maximum weight of the toy?</td><td>Not more than 3.5kg</td><td>Constraint</td></tr>
+        <tr><td>11</td><td>Should the toy be user-friendly?</td><td>Yes</td><td>Objective</td></tr>
+        <tr><td>12</td><td>Does the missile need to move sideways?</td><td>Yes</td><td>Function</td></tr>
+        <tr><td>13</td><td>Does the machine store the missiles?</td><td>Yes</td><td>Function</td></tr>
+        <tr><td>14</td><td>Should the toy sense target?</td><td>Yes</td><td>Function</td></tr>
+        <tr><td>15</td><td>Should the machine display the no of targets achieved?</td><td>Yes</td><td>Function</td></tr>
+        <tr><td>16</td><td>Should the machine launch the missile?</td><td>Yes</td><td>Function</td></tr>
+        <tr><td>17</td><td>Should the machine Indicate ON/OFF?</td><td>Yes</td><td>Function</td></tr>
+        <tr><td>18</td><td>Machine should be made up of recycled materials?</td><td>Yes</td><td>Objective</td></tr>
+    </table>
+
+    <h2>1.2 Basic Survey and Requirements</h2>
+    <h3>Table 2: Observation from a Literature Survey</h3>
+    <table>
+        <tr>
+            <th>Sl.No</th>
+            <th>Observation from Surveys</th>
+            <th>Requirements</th>
+        </tr>
+        <tr><td>01</td><td>Materials to be used</td><td>Materials used to build must be non-toxic and durable</td></tr>
+        <tr><td>02</td><td>Weight of the machine</td><td>It should be easy to carry and transportable</td></tr>
+        <tr><td>03</td><td>Cost</td><td>Machine should be built with minimum budget</td></tr>
+    </table>
+
+    <h2>1.3 Identifying Client's Objectives</h2>
+    <h3>Table 3: Objectives Identified</h3>
+    <table>
+        <tr>
+            <th>Sl.no</th>
+            <th>Objectives</th>
+        </tr>
+        <tr><td>01</td><td>Materials used to build must be non-toxic and durable</td></tr>
+        <tr><td>02</td><td>The machine should be Semi-Automatic</td></tr>
+        <tr><td>03</td><td>The machine should meet the required safety and regulations</td></tr>
+        <tr><td>04</td><td>The machine should be portable</td></tr>
+        <tr><td>05</td><td>The machine should be user-friendly</td></tr>
+        <tr><td>06</td><td>Machine should be made up of recycled materials</td></tr>
+    </table>
+
+    <h3>Problem Definition Version 1.1:</h3>
+    <p>Design a semi-automatic missile launching machine, which is made up of non-toxic, durable and recycled materials and meets the required safety and regulations, it should be portable and user-friendly.</p>
+
+    <h2>1.4 Identify Constraints</h2>
+    <h3>Table 4: Identified Constraints</h3>
+    <table>
+        <tr>
+            <th>Sl.No</th>
+            <th>Constraints</th>
+        </tr>
+        <tr><td>01</td><td>The toy should sale between the age group of 5-13 years</td></tr>
+        <tr><td>02</td><td>The toy should not exceed the budget of Rs 3500/-</td></tr>
+        <tr><td>03</td><td>The size of the toy should not be more than: 1.5 cubic feet</td></tr>
+        <tr><td>04</td><td>Only One unit should be produced</td></tr>
+        <tr><td>05</td><td>The toy should be ready within 2-3 months</td></tr>
+        <tr><td>06</td><td>The toy should not exceed the weight of 3.5kg</td></tr>
+    </table>
+
+    <h3>Problem Definition Version 1.2:</h3>
+    <p>Design a semi-automatic missile launching machine, which is made up of non-toxic, durable and recycled materials and meets the required safety and regulations. It should be portable and user-friendly, target age group is 5-13 years, budget under Rs 3500/-, size under 1.5 cubic feet, one unit production, ready in 2-3 months, and weight under 3.5kg.</p>
+
+    <h2>1.5 Establish Functions</h2>
+    <h3>Table 5: Identified Functions</h3>
+    <table>
+        <tr>
+            <th>Sl.No</th>
+            <th>Functions</th>
+        </tr>
+        <tr><td>01</td><td>Move the missile sideways</td></tr>
+        <tr><td>02</td><td>Sense the target</td></tr>
+        <tr><td>03</td><td>Store the missile</td></tr>
+        <tr><td>04</td><td>Release the missile</td></tr>
+        <tr><td>05</td><td>Display the no of targets achieved</td></tr>
+        <tr><td>06</td><td>Indicate ON/OFF</td></tr>
+    </table>
+
+    <h3>Problem Definition Version 1.3:</h3>
+    <p>Design a semi-automatic missile launching machine, which is made up of non-toxic, durable and recycled materials and meets the required safety and regulations, it should be portable and user-friendly. The toy should sale between the age group of 5-13 years. The toy should not exceed the budget of Rs 3500/-.The size of the toy should not be more than: 1.5 cubic feet. Only One unit should be produced. The toy should be ready within 2-3 months. The toy should not exceed the weight of 3.5kg. The missile needs to move sideways and the machine should sense the target. The machine should store the missile and should also launch missile. The machine should indicate if it is ON/OFF and should also display the no of targets achieved.</p>
+
+</body>
+</html>
