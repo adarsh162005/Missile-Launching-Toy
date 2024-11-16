@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model: Missile Launching Toy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #000000;
+        }
+        h2, h3 {
+            color: #000000;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 80%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        hr {
+            margin: 20px 0;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>3D Model: Missile Launching Toy</h1>
+    <p>Note: The dimensions of the machine parts are in "mm"</p>
+
+    <table>
+        <tr>
+            <th>Sl.No</th>
+            <th>View</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Main View</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Top View</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Front View</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Right View</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>1. Main View</h2>
+    <div class="image-container">
+        <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/145776618/990a9dfa-a09a-469e-9a59-57b605a31068" alt="Main View">
+    </div>
+
+    <hr>
+
+    <h2>2. Top View</h2>
+    <div class="image-container">
+        <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/145776618/d5210a8c-da22-4e3c-8ff1-93be3c00326d" alt="Top View">
+    </div>
+
+    <hr>
+
+    <h2>3. Front View</h2>
+    <div class="image-container">
+        <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/145776618/60d8e5e8-b96f-481a-9eb9-1b7934b9911b" alt="Front View">
+    </div>
+
+    <hr>
+
+    <h2>4. Right View</h2>
+    <div class="image-container">
+        <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/145776618/b5b7a1cd-aad4-4050-9bf6-1d6aa91dbf7c" alt="Right View">
+    </div>
+
+    <hr>
+
+    <h1>Circuit Implementation</h1>
+    <div class="image-container">
+        <img src="https://github.com/H-DIV-2023-2024-ODD/H15/assets/145776618/1a35be17-4133-4560-b686-0ee240512076" alt="Missile Launching Toy Circuit">
+    </div>
+
+</body>
+</html>
