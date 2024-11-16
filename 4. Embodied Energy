@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embodied Energy Calculation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #003366;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .note {
+            font-style: italic;
+            color: #d9534f;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Embodied Energy Calculation</h1>
+
+    <table>
+        <tr>
+            <th>Sl.No</th>
+            <th>Consumables</th>
+            <th>Length (m)</th>
+            <th>Width (m)</th>
+            <th>Thickness (m)</th>
+            <th>Volume (m<sup>3</sup>)</th>
+            <th>Weight (kg)</th>
+            <th>Quantity</th>
+            <th>Total Volume (m<sup>3</sup>)</th>
+            <th>Total Weight (kg)</th>
+            <th>Unit Embodied Energy (MJ/m<sup>3</sup>)</th>
+            <th>Unit Embodied Energy (MJ/kg)</th>
+            <th>Total Embodied Energy (MJ)</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Acrylic sheet</td>
+            <td>2.236</td>
+            <td>0.648</td>
+            <td>0.069</td>
+            <td>889.87 × 10<sup>-6</sup></td>
+            <td>0.47</td>
+            <td>1</td>
+            <td>889.87 × 10<sup>-6</sup></td>
+            <td>1.0678</td>
+            <td>-</td>
+            <td>117</td>
+            <td>124.93</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>L clamp (1")</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>0.022</td>
+            <td>3</td>
+            <td>-</td>
+            <td>0.066</td>
+            <td>-</td>
+            <td>153</td>
+            <td>10.098</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>L clamp (2")</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>0.01</td>
+            <td>8</td>
+            <td>-</td>
+            <td>0.08</td>
+            <td>-</td>
+            <td>153</td>
+            <td>12.24</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>U clamp</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>0.0245</td>
+            <td>2</td>
+            <td>-</td>
+            <td>0.049</td>
+            <td>-</td>
+            <td>153</td>
+            <td>7.497</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>M3 Bolt+nut [small]</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>0.001</td>
+            <td>44</td>
+            <td>-</td>
+            <td>0.044</td>
+            <td>-</td>
+            <td>32</td>
+            <td>1.408</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>M3 Bolt+nut [medium]</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>0.002</td>
+            <td>8</td>
+            <td>-</td>
+            <td>0.016</td>
+            <td>-</td>
+            <td>32</td>
+            <td>0.512</td>
+        </tr>
+        <tr>
+            <th colspan="9">Total</th>
+            <td>1.3228</td>
+            <td></td>
+            <td></td>
+            <td>156.685</td>
+        </tr>
+    </table>
+
+    <p class="note">Note: The weight of the L clamp, U clamp, and nut & bolt are assumed values.</p>
+
+</body>
+</html>
